@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--#include virtual="/theme-clf2-nsi2/inc/config.shtm"-->	
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+	<!--#set var="pg-lang1" value="eng"-->
+	<!--#set var="pg-lang2" value="fra"-->
+    <!--#set var="pg-title-eng" value="Server message page (eng-fra) - CLF 2.0 Theme - Web Experience Toolkit (WET)"-->
+    <!--#set var="pg-title-fra" value="Page de message du serveur (eng-fra) - Thème NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)"-->
+    <!--#set var="pg-issued" value="YYYY-MM-DD"-->
+    <!--#set var="pg-modified" value="YYYY-MM-DD"-->
+	<meta name="robots" content="none" />
+	<meta name="dc.title" lang="en" xml:lang="en" content="English title / Titre en anglais" />
+	<meta name="dc.title" lang="fr" xml:lang="fr" content="French title / Titre en français" />
+	<meta name="dc.language" lang="en" xml:lang="en" content="eng" />
+	<meta name="dc.language" lang="fr" xml:lang="fr" content="fra" />
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/css.shtm"-->
+</head>
+<body>
+	<!--#include virtual="/inc/1col.shtm"-->
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/header-entete-eng.shtm"-->
+	<!--#include virtual="/inc/centre-1.shtm"-->
+
+    <!-- English message begins / Début du message en anglais -->
+    <div id="cn-left-msg">
+    <section>
+        <h2>Message title (h2)</h2>
+        <p>Message message message message message message message message message message message message message message message message message message message message.</p>
+    </section>
+    </div>
+    <!-- English message ends / Fin du message en anglais -->
+
+    <!-- French message begins / Début du message en français -->
+    <div id="cn-right-msg" lang="fr" xml:lang="fr">
+    <section>
+        <h2>Titre du message (h2)</h2>
+        <p>Message message message message message message message message message message message message message message message message message message message message.</p>
+    </section>
+    </div>
+    <!-- French message ends / Fin du message en français -->
+
+	<!--#include virtual="/inc/centre-2.shtm"-->
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/trail-arr-eng.shtm"-->
+	<!--#include virtual="/inc/body-corps-3.shtm"-->
+</body>
+</html>

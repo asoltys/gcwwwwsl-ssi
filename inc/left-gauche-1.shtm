@@ -1,0 +1,7 @@
+
+	<!-- Primary navigation (left column begins) / Début de la navigation principale (colonne gauche) -->
+	<div id="cn-left-col-gap"></div>
+	<div id="cn-left-col"><div id="cn-left-col-inner">
+	<!--#if expr="${pg-html5}"--><section><!--#endif-->
+		<h2 id="cn-nav"><!--#echo var="cn-left-col-${pg-lang1}"--></h2>
+        <div class="cn-left-col-default">

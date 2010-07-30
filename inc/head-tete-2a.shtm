@@ -1,0 +1,21 @@
+	<!-- Title begins / Début du titre -->
+	<title><!--#echo encoding="none" var="pg-title-${pg-lang1}"--><!--#if expr="${pg-lang2}"--> | <!--#echo encoding="none" var="pg-title-${pg-lang2}"--><!--#endif--></title>
+	<!-- Title ends / Fin du titre -->
+
+	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
+
+	<meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
+	<!--#if expr="${pg-lang2}"--><meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" /><!--#endif-->
+	<meta name="dcterms.issued" content="<!--#echo encoding='none' var='pg-issued'-->" />
+	<meta name="dcterms.modified" content="<!--#echo encoding='none' var='pg-modified'-->" />
+	<meta name="dc.language" content="<!--#echo encoding='none' var='pg-lang1'-->" />
+	<!--#if expr="${pg-lang2}"--><meta name="dc.language" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
+    <!-- Metadata ends / Fin des métadonnées -->
+
+	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
+	<link href="/css/base.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 8]><link href="/css/base-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if IE 7]><link href="/css/base-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+	<!--[if lte IE 6]><link href="/css/base-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
