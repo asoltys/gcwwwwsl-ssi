@@ -3,7 +3,7 @@
 	<!-- Title ends / Fin du titre -->
 
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
-	<link rel="shortcut icon" href="/favicon.ico" />
+	<!--link rel="shortcut icon" href="/favicon.ico" /-->
 	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
 
 	<meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
