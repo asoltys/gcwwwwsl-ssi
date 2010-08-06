@@ -9,7 +9,7 @@
 	-->
 	<!--#set var="pg-lang1" value="fra"-->
     <!--#set var="pg-title-fra" value="1 colonne - Thème NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)"-->
-    <!--#set var="pg-issued" value="AAAA-MM-JJ"-->
+    <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="AAAA-MM-JJ"-->
     <!--#set var="pg-html5" value=""-->
 	<meta name="dc.description" content="French description / Description en français" />

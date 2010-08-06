@@ -6,6 +6,7 @@
 	<!--link rel="shortcut icon" href="/favicon.ico" /-->
 	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
 
+	<!--#if expr="${pg-modified} = '' || ${pg-modified} = 'YYYY-MM-DD' || ${pg-modified} = 'AAAA-MM-JJ'"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
 	<meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
 	<!--#if expr="${pg-lang2}"--><meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" /><!--#endif-->
 	<meta name="dcterms.issued" content="<!--#echo encoding='none' var='pg-issued'-->" />

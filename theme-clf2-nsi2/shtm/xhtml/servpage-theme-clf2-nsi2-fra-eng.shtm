@@ -11,7 +11,7 @@
 	<!--#set var="pg-lang2" value="eng"-->
     <!--#set var="pg-title-fra" value="Page de message du serveur (eng-fra) - Thème NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)"-->
     <!--#set var="pg-title-eng" value="Server message page (eng-fra) - CLF 2.0 Theme - Web Experience Toolkit (WET)"-->
-    <!--#set var="pg-issued" value="YYYY-MM-DD"-->
+    <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="YYYY-MM-DD"-->
     <!--#set var="pg-html5" value=""-->
 	<meta name="robots" content="none" />

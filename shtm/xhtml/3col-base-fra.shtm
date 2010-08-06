@@ -9,8 +9,9 @@
 	-->
 	<!--#set var="pg-lang1" value="fra"-->
     <!--#set var="pg-title-fra" value="3 colonnes - Thème base - Boîte à outils de l'expérience Web (BOEW)"-->
-    <!--#set var="pg-issued" value="AAAA-MM-JJ"-->
+    <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="AAAA-MM-JJ"-->
+    <!--#set var="pg-html5" value=""-->
 	<meta name="dc.description" content="French description / Description en français" />
 	<meta name="description" content="French description / Description en français" />
 	<meta name="keywords" content="French keywords / Mots-clés en français" />
