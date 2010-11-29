@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<!--#include virtual="/theme-base/inc/config.shtm"-->	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -11,12 +10,12 @@
     <!--#set var="pg-title-eng" value="1 column layout - Base theme - Web Experience Toolkit (WET)"-->
     <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="YYYY-MM-DD"-->
-    <!--#set var="pg-html5" value=""-->
-	<meta name="dc.description" content="English description / Description en anglais" />
+    <!--#set var="pg-html5" value="1"-->
+	<meta name="dcterms.description" content="English description / Description en anglais" />
 	<meta name="description" content="English description / Description en anglais" />
 	<meta name="keywords" content="English keywords / Mots-clés en anglais" />
-	<meta name="dc.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
-	<meta name="dc.subject" content="English subject terms / Termes de sujet en anglais" />
+	<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+	<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
 	<!--#include virtual="/theme-base/inc/cont/css.shtm"-->
 </head>
 <body>

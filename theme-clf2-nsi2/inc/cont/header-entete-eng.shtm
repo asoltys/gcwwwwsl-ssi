@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/body-corps-1a.shtm"-->
-<div id="cn-sig"><img src="/<!--#echo var='cn-theme-folder'-->/images/<!--#echo var='cn-sig-image'-->-<!--#echo var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" /></div>
-<div id="cn-wmms"><img src="/<!--#echo var='cn-theme-folder'-->/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" /></div>
+<div id="cn-sig"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/<!--#echo encoding='none' var='cn-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" /></div>
+<div id="cn-wmms"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" /></div>
 
 <!-- Banner begins / Début de la bannière -->
 <div id="cn-leaf"></div>
@@ -10,13 +10,12 @@
 </div>
 <!-- Banner ends / Fin de la bannière -->
 
-<div <!--#if expr="${pg-html5}"-->role="navigation"<!--#endif-->>
-<!--#if expr="${pg-html5}"--><nav><!--#endif-->
+<!--#if expr="${pg-html5}"--><nav role="navigation"><!--#endif-->
 	<!-- Common menu bar begins / Début de la barre de menu commune -->
     <div id="cn-cmb">
         <h2><!--#echo encoding="none" var="cn-cmb-${pg-lang1}"--></h2>
         <ul>
-            <li id="cn-cmb1"><a href="<!--#echo encoding='none' var='cn-cmblang-href-${pg-lang1}'-->" lang="fr" xml:lang="fr" title="<!--#echo encoding='none' var='cn-cmblang-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmblang-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb1"><a href="<!--#echo encoding='none' var='cn-cmblang-href-${pg-lang1}'-->" lang="fr"<!--#if expr='${pg-html5} = ""'--> xml:lang="fr"<!--#endif--> title="<!--#echo encoding='none' var='cn-cmblang-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmblang-text-${pg-lang1}'--></a></li>
             <li id="cn-cmb2"><a href="<!--#echo encoding='none' var='cn-cmb2-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb2-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb2-text-${pg-lang1}'--></a></li>
             <li id="cn-cmb3"><a href="<!--#echo encoding='none' var='cn-cmb3-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb3-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb3-text-${pg-lang1}'--></a></li>
             <li id="cn-cmb4"><a href="<!--#echo encoding='none' var='cn-cmb4-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb4-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb4-text-${pg-lang1}'--></a></li>
@@ -35,5 +34,4 @@
     </div>
 	<!-- Breadcrumb ends / Fin du fil d'Ariane -->
 <!--#if expr="${pg-html5}"--></nav><!--#endif-->
-</div>
 <!--#include virtual="/inc/body-corps-1b.shtm"-->

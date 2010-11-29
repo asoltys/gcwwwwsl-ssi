@@ -1,5 +1,4 @@
-<div <!--#if expr="${pg-html5}"-->role="navigation"<!--#endif-->>
-<nav>
+<nav role="navigation">
     <h3>Section&#160;1</h3>
     <div>
         <ul>
@@ -14,7 +13,6 @@
         </ul>	
     </div>
 </nav>
-</div>
 <section>
     <h3>Section&#160;2</h3>
     <div>

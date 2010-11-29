@@ -2,5 +2,5 @@
 	<div id="cn-right-col-gap"></div>
 	<div id="cn-right-col" <!--#if expr="${pg-html5}"-->role="complementary"<!--#endif-->><div id="cn-right-col-inner">
 	<!--#if expr="${pg-html5}"--><section><!--#endif-->
-		<h2><!--#echo var="cn-right-col-${pg-lang1}"--></h2>
-        <div class="cn-right-col-default">
+		<h2><!--#echo encoding="none" var="cn-right-col-${pg-lang1}"--></h2>
+        <div class="cn-right-col-default"><!--#set var="is-right-droite" value="1"-->

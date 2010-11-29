@@ -54,7 +54,7 @@
 <!--#set var="cn-bcrumb-eng" value="Breadcrumb"-->
 <!--#set var="cn-bcrumb-fra" value="Fil d'Ariane"-->
 <!--#set var="cn-doc-dates-eng" value="Date Modified:"-->
-<!--#set var="cn-doc-dates-fra" value="Date de modification :"-->
+<!--#set var="cn-doc-dates-fra" value="Date de modification&#160;:"-->
 <!--#set var="cn-toppage-foot-title-eng" value="Return to Top of Page"-->
 <!--#set var="cn-toppage-foot-title-fra" value="Retourner au haut de la page"-->
 <!--#set var="cn-toppage-foot-text-eng" value="Top of Page"-->

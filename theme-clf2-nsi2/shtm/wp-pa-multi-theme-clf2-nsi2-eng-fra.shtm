@@ -1,8 +1,8 @@
 <!--#if expr="${np-show} = 1"-->
 <!--#set var="np-title-eng" value="Web Template"-->
 <!--#set var="np-title-fra" value="Modéle de page Web"-->
-<!--#set var="np-link-eng" value="/inc/theme-clf2-nsi2/gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-eng.shtm"-->
-<!--#set var="np-link-fra" value="/inc/theme-clf2-nsi2/gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-fra.shtm"-->
+<!--#set var="np-link-eng" value="/theme-clf2-nsi2/shtm/3col-theme-clf2-nsi2-eng.shtm"-->
+<!--#set var="np-link-fra" value="/theme-clf2-nsi2/shtm/3col-theme-clf2-nsi2-fra.shtm"-->
 <!--#set var="np-link-deu" value="#"-->
 <!--#set var="np-link-spa" value="#"-->
 <!--#set var="np-link-ita" value="#"-->
@@ -11,10 +11,9 @@
 <!--#include virtual="/inc/np.shtm"-->
 <!--#else-->
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<!--#include virtual="/theme-clf2-nsi2/inc/config.shtm"-->	
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
@@ -40,16 +39,16 @@
     <!--#set var="pg-link-rus" value="#"-->
     <!--#set var="pg-inst-eng" value="Name of Institution"-->
     <!--#set var="pg-inst-fra" value="Nom de l'institution"-->
-	<meta name="dc.description" lang="en" xml:lang="en" content="English description / Description en anglais" />
-	<meta name="dc.description" lang="fr" xml:lang="fr" content="French description / Description en français" />
-	<meta name="description" lang="en" xml:lang="en" content="English description / Description en anglais" />
-	<meta name="description" lang="fr" xml:lang="fr" content="French description / Description en français" />
-	<meta name="keywords" lang="en" xml:lang="en" content="English keywords / Mots-clés en anglais" />
-	<meta name="keywords" lang="fr" xml:lang="fr" content="French keywords / Mots-clés en français" />
-	<meta name="dc.creator" lang="en" xml:lang="en" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
-	<meta name="dc.creator" lang="fr" xml:lang="fr" content="French name of the content author / Nom en français de l'auteur du contenu" />
-	<meta name="dc.subject" lang="en" xml:lang="en" content="English subject terms / Termes de sujet en anglais" />
-	<meta name="dc.subject" lang="fr" xml:lang="fr" content="French subject terms / Termes de sujet en français" />
+	<meta name="dcterms.description" lang="en" content="English description / Description en anglais" />
+	<meta name="dcterms.description" lang="fr" content="French description / Description en français" />
+	<meta name="description" lang="en" content="English description / Description en anglais" />
+	<meta name="description" lang="fr" content="French description / Description en français" />
+	<meta name="keywords" lang="en" content="English keywords / Mots-clés en anglais" />
+	<meta name="keywords" lang="fr" content="French keywords / Mots-clés en français" />
+	<meta name="dcterms.creator" lang="en" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+	<meta name="dcterms.creator" lang="fr" content="French name of the content author / Nom en français de l'auteur du contenu" />
+	<meta name="dcterms.subject" title="scheme" lang="en" content="English subject terms / Termes de sujet en anglais" />
+	<meta name="dcterms.subject" title="scheme" lang="fr" content="French subject terms / Termes de sujet en français" />
 	<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/css.shtm"-->
 </head>
 <body>

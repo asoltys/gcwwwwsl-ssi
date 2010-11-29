@@ -1,5 +1,4 @@
-<div <!--#if expr="${pg-html5}"-->role="navigation"<!--#endif-->>
-<nav>
+<nav role="navigation">
     <section>
         <h3>Primary navigation (Base)</h3>
         <p>Normally contains a search field and navigation links</p>
@@ -32,4 +31,3 @@
         </section>
     </section>
 </nav>
-</div>

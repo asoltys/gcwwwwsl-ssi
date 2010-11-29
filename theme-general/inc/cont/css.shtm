@@ -1,0 +1,11 @@
+<!--#include virtual="/inc/head-tete-2a.shtm"-->
+    <link href="/css/util.css" rel="stylesheet" type="text/css" />
+    <link href="/theme-general/css/theme-general.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 7]><link href="/theme-general/css/theme-general-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if lte IE 6]><link href="/theme-general/css/theme-general-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+    
+    <!-- WET print CSS begins / Début du CSS de la BOEW pour l'impression -->
+    <link href="/css/pf-if.css" rel="stylesheet" media="print" type="text/css" />
+    <link href="/theme-general/css/pf-if-theme-general.css" rel="stylesheet" media="print" type="text/css" />
+    <!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
+<!--#include virtual="/inc/head-tete-2b.shtm"-->

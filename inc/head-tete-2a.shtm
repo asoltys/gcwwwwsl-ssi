@@ -3,17 +3,26 @@
 	<!-- Title ends / Fin du titre -->
 
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
-	<!--link rel="shortcut icon" href="/favicon.ico" /-->
+	<!-- <link rel="shortcut icon" href="/images/favicon.ico" /> -->
 	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
 
-	<!--#if expr="${pg-modified} = '' || ${pg-modified} = 'YYYY-MM-DD' || ${pg-modified} = 'AAAA-MM-JJ'"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
-	<meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang1}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
-	<!--#if expr="${pg-lang2}"--><meta name="dc.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" /><!--#endif-->
-	<meta name="dcterms.issued" content="<!--#echo encoding='none' var='pg-issued'-->" />
-	<meta name="dcterms.modified" content="<!--#echo encoding='none' var='pg-modified'-->" />
-	<meta name="dc.language" content="<!--#echo encoding='none' var='pg-lang1'-->" />
-	<!--#if expr="${pg-lang2}"--><meta name="dc.language" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
-    <!-- Metadata ends / Fin des métadonnées -->
+	<!--#if expr="(${pg-modified} = '') || (${pg-modified} = 'YYYY-MM-DD') || (${pg-modified} = 'AAAA-MM-JJ')"--><!--#set var="pg-modified" value="${pg-issued}"--><!--#endif-->
+	<meta name="dcterms.title" content="<!--#echo encoding='none' var='pg-title-${pg-lang1}'-->" />
+	<!--#if expr="${pg-lang2}"--><meta name="dcterms.title" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#if expr='${pg-html5} = ""'--> xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->"<!--#endif--> content="<!--#echo encoding='none' var='pg-title-${pg-lang2}'-->" /><!--#endif-->
+
+	<!--#if expr="${pg-html5}"-->
+	<meta name="dcterms.issued" title="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
+	<meta name="dcterms.modified" title="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
+	<meta name="dcterms.language" title="ISO639-2" content="<!--#echo encoding='none' var='pg-lang1'-->" />
+	<!--#if expr="${pg-lang2}"--><meta name="dcterms.language" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" title="ISO639-2" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
+	<!--#else-->
+	<meta name="dcterms.issued" scheme="W3CDTF" content="<!--#echo encoding='none' var='pg-issued'-->" />
+	<meta name="dcterms.modified" scheme="W3CDTF" content="<!--#echo encoding='none' var='pg-modified'-->" />
+	<meta name="dcterms.language" scheme="ISO639-2" content="<!--#echo encoding='none' var='pg-lang1'-->" />
+	<!--#if expr="${pg-lang2}"--><meta name="dcterms.language" lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" xml:lang="<!--#echo encoding='none' var='cn-meta-${pg-lang2}'-->" scheme="ISO639-2" content="<!--#echo encoding='none' var='pg-lang2'-->" /><!--#endif-->
+	<!--#endif-->
+
+    <!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
 	<link href="/css/base.css" rel="stylesheet" type="text/css" />

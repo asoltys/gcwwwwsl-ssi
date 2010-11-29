@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<!--#include virtual="/theme-clf2-nsi2/inc/config.shtm"-->	
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
@@ -10,15 +9,11 @@
 	-->
 	<!--#set var="pg-lang1" value="fra"-->
 	<!--#set var="pg-lang2" value="eng"-->
-    <!--#set var="pg-title-fra" value="Page de message du serveur (eng-fra) - Thème NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)"-->
-    <!--#set var="pg-title-eng" value="Server message page (eng-fra) - CLF 2.0 Theme - Web Experience Toolkit (WET)"-->
+    <!--#set var="pg-title-fra" value="Titre du message (h1) - Page de message du serveur (eng-fra) - Thème NSI 2.0 - HTML5 - Boîte à outils de l'expérience Web (BOEW)"-->
+    <!--#set var="pg-title-eng" value="Message title (h1) - Server message page (eng-fra) - CLF 2.0 Theme - HTML5 - Web Experience Toolkit (WET)"-->
     <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="YYYY-MM-DD"-->
 	<meta name="robots" content="none" />
-	<meta name="dc.title" lang="fr" xml:lang="fr" content="French title / Titre en français" />
-	<meta name="dc.title" lang="en" xml:lang="en" content="English title / Titre en anglais" />
-	<meta name="dc.language" lang="fr" xml:lang="fr" content="fra" />
-	<meta name="dc.language" lang="en" xml:lang="en" content="eng" />
 	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/css.shtm"-->
 </head>
 <body>
@@ -27,7 +22,7 @@
     <!--#include virtual="/inc/centre-1.shtm"-->
     
     <!-- French message begins / Début du message en français -->
-    <div id="cn-left-msg" lang="fr" xml:lang="fr">
+    <div id="cn-left-msg" lang="fr">
     <section>
         <h2>Titre du message (h2)</h2>
         <p>Message message message message message message message message message message message message message message message message message message message message.</p>
