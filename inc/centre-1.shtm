@@ -1,4 +1,4 @@
-	<div id="cn-centre-col-gap"></div>
+	<!--#if expr="${is-left-gauche}"--><div id="cn-centre-col-gap"></div><!--#endif-->
 	<div id="cn-centre-col" <!--#if expr="${pg-html5}"-->role="main"<!--#endif-->><div id="cn-centre-col-inner">
 	<!--#if expr="${pg-html5}"--><section><!--#endif-->
 		<!-- Content title begins / Début du titre du contenu -->

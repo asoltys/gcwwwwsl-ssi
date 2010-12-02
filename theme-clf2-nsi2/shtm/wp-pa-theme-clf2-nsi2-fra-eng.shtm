@@ -9,7 +9,6 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-	<!--#include virtual="/theme-clf2-nsi2/inc/config.shtm"-->	
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -43,7 +42,6 @@
 	<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/cont.shtm"-->
 	<!--#include virtual="/inc/centre-2.shtm"-->
 	<!--#include virtual="/theme-clf2-nsi2/inc/wp-pa/trail-arr-eng.shtm"-->
-	<!--#include virtual="/inc/body-corps-3.shtm"-->
 </body>
 </html>
 <!--#endif-->

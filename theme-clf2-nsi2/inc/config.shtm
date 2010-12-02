@@ -1,4 +1,3 @@
-<!--#include virtual="/inc/head-tete-1a.shtm"-->
 <!--#include virtual="/inc/config.shtm"-->
 <!--#set var="cn-theme-folder" value="theme-clf2-nsi2"-->
 <!--#set var="cn-bt-fa-filename" value="index.shtm"-->
@@ -63,4 +62,3 @@
 <!--#set var="cn-inotices-link-href-fra" value="#"-->
 <!--#set var="cn-inotices-link-text-eng" value="Important Notices"-->
 <!--#set var="cn-inotices-link-text-fra" value="Avis importants"-->
-<!--#set var="pg-html5" value="1"-->

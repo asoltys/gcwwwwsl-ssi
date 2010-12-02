@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-	<!--#include virtual="/theme-general/inc/config.shtm"-->	
 	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -57,6 +56,5 @@
 		</dl>
 	<!--#include virtual="/inc/centre-2.shtm"-->
 	<!--#include virtual="/theme-general/inc/cont/trail-arr-eng.shtm"-->
-	<!--#include virtual="/inc/body-corps-3.shtm"-->
 </body>
 </html>
