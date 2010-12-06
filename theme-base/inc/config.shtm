@@ -1,0 +1,3 @@
+<!--#include virtual="/inc/config.shtm"-->
+<!--#set var="cn-theme-folder" value="theme-base"-->
+<!--#set var="cn-bt-fa-filename" value="index.shtm"-->
