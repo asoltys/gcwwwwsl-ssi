@@ -9,7 +9,7 @@
         </form>
     </section>
 </div>
-<nav <!--#if expr="${pg-html5}"-->role="navigation"<!--#endif-->>
+<nav <!--#if expr="${pg-html5} != ''"-->role="navigation"<!--#endif-->>
     <section>
         <h3>Section&#160;1</h3>
         <ul>

@@ -1,4 +1,4 @@
-	<!--#if expr="${pg-html5}"--></footer><!--#endif-->
+	<!--#if expr="${pg-html5} != ''"--></footer><!--#endif-->
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
 	</div>

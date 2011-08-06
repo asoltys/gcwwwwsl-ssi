@@ -16,8 +16,8 @@
 <!--#set var="cn-cmblang-href-fra" value="#"-->
 <!--#set var="cn-cmblang-title-eng" value="Français - Version française de cette page"-->
 <!--#set var="cn-cmblang-title-fra" value="English - English version of the Web page"-->
-<!--#set var="cn-cmblang-title-site-eng" value="Français - Version française de ce site Web"-->
-<!--#set var="cn-cmblang-title-site-fra" value="English - English version of the Web site"-->
+<!--#set var="cn-cmblang-title-site-eng" value="English - English version of the Web site"-->
+<!--#set var="cn-cmblang-title-site-fra" value="Français - Version française de ce site Web"-->
 <!--#set var="cn-cmblang-text-eng" value="Français"-->
 <!--#set var="cn-cmblang-text-fra" value="English"-->
 <!--#set var="cn-cmb2-href-eng" value="#"-->

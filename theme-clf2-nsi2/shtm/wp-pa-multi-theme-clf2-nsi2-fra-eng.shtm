@@ -30,8 +30,8 @@
     <!--#set var="pg-title-fra" value="Modéle de page Web"-->
     <!--#set var="pg-issued" value="2010-08-09"-->
     <!--#set var="pg-modified" value="YYYY-MM-DD"-->
-    <!--#set var="pg-link-eng" value="/inc/theme-clf2-nsi2/gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-eng.shtm"-->
-    <!--#set var="pg-link-fra" value="/inc/theme-clf2-nsi2/gcwebtemplate-modelewebgc-v20-theme-clf2-nsi2-3col-fra.shtm"-->
+    <!--#set var="pg-link-eng" value="/inc/theme-clf2-nsi2/3col-theme-clf2-nsi2-eng.shtm"-->
+    <!--#set var="pg-link-fra" value="/inc/theme-clf2-nsi2/3col-theme-clf2-nsi2-fra.shtm"-->
     <!--#set var="pg-link-deu" value="#"-->
     <!--#set var="pg-link-spa" value="#"-->
     <!--#set var="pg-link-ita" value="#"-->

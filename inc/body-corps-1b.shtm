@@ -1,4 +1,4 @@
-	<!--#if expr="${pg-html5}"--></header><!--#endif-->
+	<!--#if expr="${pg-html5} != ''"--></header><!--#endif-->
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
 
